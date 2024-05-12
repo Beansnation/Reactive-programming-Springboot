@@ -6,5 +6,5 @@ import reactor.core.publisher.Flux;
 
 public interface StudentRepository extends ReactiveCrudRepository<Student, Integer> {
 
-    Flux<Student> findALlByFirstname(String firstname);
+    Flux<Student> findAllByFirstname(String firstname);
 }
